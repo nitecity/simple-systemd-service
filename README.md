@@ -1,7 +1,7 @@
 # simple-systemd-service
 This is a simple systemd service example for a bash script
 
-- Enter this command to write your systemd code:
+Enter this command to write your systemd code:
 
 ```nano /etc/systemd/system/tg.service```
 
