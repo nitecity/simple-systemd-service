@@ -3,7 +3,7 @@ This is a simple systemd service example for a bash script
 
 Enter this command to write your systemd code:
 
-```nano /etc/systemd/system/example.service```
+```sudo nano /etc/systemd/system/example.service```
 
 ```
 [Unit]
@@ -20,4 +20,11 @@ User=root
 
 [Install]
 WantedBy=multi-user.target
+```
+
+```
+sudo systemctl daemon-reload
+sudo systemctl start example.service
+sudo systemctl enable example.service
+sudo systemctl status example.service
 ```
